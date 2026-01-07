@@ -1,0 +1,42 @@
+name: inventory_management_app
+description: A professional Flutter Inventory Management app for small businesses.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Material Design icons
+  cupertino_icons: ^1.0.6
+  
+  # Local storage with Hive (lightweight, fast NoSQL database)
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  
+  # For generating unique IDs
+  uuid: ^4.2.1
+  
+  # Currency formatting
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  
+  # Hive code generation
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.7
+
+flutter:
+  uses-material-design: true
+  
+  # You can add custom fonts here later
+  # fonts:
+  #   - family: Roboto
+  #     fonts:
+  #       - asset: fonts/Roboto-Regular.ttf
